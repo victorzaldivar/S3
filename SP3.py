@@ -68,6 +68,8 @@ class SP3:
                 SP3.convertVideoContainer2(a,result1)
                 result2 = int(input("Second codec: \n"))
                 SP3.convertVideoContainer2(a,result2)
+                # llamo a estas funciones para hacer la conversión del video al respectivo codec associado
+                # por si fuera el caso que aún no existieran esos ficheros.
             except ValueError:
                 print("You must to enter a number.")
                 continue
